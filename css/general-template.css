@@ -1,0 +1,95 @@
+/* ----- For Everything ----- */
+/* Author: Brandon Leong
+/* Date  : September 27th, 2014
+/* Desc  : Website
+/* -------------------------- */
+
+/* Setup fonts & colors */
+@font-face {
+	font-family: open_sans;
+	src: url('../fonts/open_sans/OpenSans-Light.ttf');
+}
+
+@font-face {
+	font-family: open_sans_big;
+	src: url('../fonts/open_sans/OpenSans-SemiBold.ttf');
+}
+
+.open_sans_big
+{
+	font-family: open_sans_big;
+	font-weight: bold;
+}
+
+#flat_blue     { color: #3498db; }
+#flat_green    { color: #2ecc71; }
+#flat_orange   { color: #e67e22; }
+#flat_turq     { color: #1abc9c; }
+#flat_clouds   { color: #ecf0f1; }
+#flat_concrete { color: #95a5a6; }
+#flat_asbestos { color: #7f8c8d; }
+
+/* Setup containers & sections */
+.navbar-inverse .navbar-nav > li > a {
+    color: #ecf0f1;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #2ecc71;
+    transition: color 0.2s ease-in;
+}
+
+body {
+    font-family: open_sans;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+h4 {
+    line-height: 1.5;
+}
+
+.section {
+	min-height: 100vh;
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* Home Page */
+#home {
+    background: url('../images/me_jump.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#home_titles {
+    text-align: center; 
+	font-size: 30px;
+}
+
+#home_desc {
+    font-size: 18px;
+}
+
+/* About Me */
+#about {
+    font-size: 18px;
+}
+
+#resume {
+    /*
+    background: #1abc9c no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    */
+}
