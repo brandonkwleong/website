@@ -1,6 +1,6 @@
 /* ----- For Everything ----- */
 /* Author: Brandon Leong
-/* Date  : September 27th, 2014
+/* Date  : August 13th, 2016
 /* Desc  : Website
 /* -------------------------- */
 
@@ -39,57 +39,28 @@
     transition: color 0.2s ease-in;
 }
 
+h3 {
+    font-family: open_sans_big;
+}
+
 body {
     font-family: open_sans;
-}
-
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    font-size: 20px;
-}
-
-h4 {
-    line-height: 1.5;
+    font-size: 16px;
 }
 
 .section {
+    margin: 0 auto;
+    max-width: 50em;
 	min-height: 100vh;
     padding-top: 50px;
-    text-align: center;
+    text-align: left;
 }
 
-/* Home Page */
-#home {
-    background: url('../images/me_jump.jpg') no-repeat center center fixed;
+#home
+{
+    background: url('../images/hawaii.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-#home_titles {
-    text-align: center; 
-	font-size: 30px;
-}
-
-#home_desc {
-    font-size: 18px;
-}
-
-/* About Me */
-#about {
-    font-size: 18px;
-}
-
-#resume {
-    /*
-    background: #1abc9c no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    */
 }
