@@ -12,13 +12,7 @@
 
 @font-face {
 	font-family: open_sans_big;
-	src: url('../fonts/open_sans/OpenSans-SemiBold.ttf');
-}
-
-.open_sans_big
-{
-	font-family: open_sans_big;
-	font-weight: bold;
+	src: url('../fonts/open_sans/OpenSans-Bold.ttf');
 }
 
 #flat_blue     { color: #3498db; }
